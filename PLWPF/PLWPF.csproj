@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6FB84DA9-F248-4CFF-94E7-1D15A6E166C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PLWPF</RootNamespace>
+    <AssemblyName>PLWPF</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AddGR.xaml.cs">
+      <DependentUpon>AddGR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddHost.xaml.cs">
+      <DependentUpon>AddHost.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddHostingUnitW.xaml.cs">
+      <DependentUpon>AddHostingUnitW.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrder.xaml.cs">
+      <DependentUpon>AddOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CalculateSunTime.cs" />
+    <Compile Include="DeleteGR.xaml.cs">
+      <DependentUpon>DeleteGR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LinqGR.xaml.cs">
+      <DependentUpon>LinqGR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters.cs" />
+    <Compile Include="DeleteHostingUnit.xaml.cs">
+      <DependentUpon>DeleteHostingUnit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.xaml.cs">
+      <DependentUpon>Feedback.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GetHuName.xaml.cs">
+      <DependentUpon>GetHuName.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GetStatusOrder.xaml.cs">
+      <DependentUpon>GetStatusOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LinqHost.xaml.cs">
+      <DependentUpon>LinqHost.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LinqHu.xaml.cs">
+      <DependentUpon>LinqHu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationService.cs" />
+    <Compile Include="PrivateHost.xaml.cs">
+      <DependentUpon>PrivateHost.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Question.xaml.cs">
+      <DependentUpon>Question.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionAnswer.xaml.cs">
+      <DependentUpon>QuestionAnswer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RatingsControl.xaml.cs">
+      <DependentUpon>RatingsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SiteOwner.xaml.cs">
+      <DependentUpon>SiteOwner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StarControl.xaml.cs">
+      <DependentUpon>StarControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="updateGuestRequest.xaml.cs">
+      <DependentUpon>updateGuestRequest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateHostingUnit.xaml.cs">
+      <DependentUpon>UpdateHostingUnit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateOrder.xaml.cs">
+      <DependentUpon>UpdateOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AddGR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddHost.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddHostingUnitW.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeleteGR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LinqGR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeleteHostingUnit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Feedback.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GetHuName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GetStatusOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LinqHost.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LinqHu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="PrivateHost.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Question.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="QuestionAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RatingsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SiteOwner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StarControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="updateGuestRequest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UpdateHostingUnit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UpdateOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{cac368c1-30f7-41ac-b40d-06a808875dda}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BL\BL.csproj">
+      <Project>{42c8b591-daa3-4f82-933f-3d91eba224ea}</Project>
+      <Name>BL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Hets.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\nof.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\yam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\yam2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\yam3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adult.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\children1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\children2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adult1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\eat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\GoBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\family_mother_father_children_child_girl_boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\__restairant_food_eat-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\restaurant-4-2-01-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cutlery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\food-eat-hotel_1-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\HP-fallback-image-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\family.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\beverage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\cutlery1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOCATION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_hot_meal-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\place.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\blue bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\blue_family.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Fork_Knife_Eat-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\goBack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\blue_eat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\calender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\SiteOwner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_basic_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\blue Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\user-man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addGR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="System\Windows\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh_update-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\upda1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paul-23-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\blue upd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue1 upd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\vi 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\host vi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\gradd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Hotel-128.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letter_B_blue-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lowercase_letter_v_blue-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Spectral_letter_22-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Spectral_numeral_03-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\1000000511.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\הורדה %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\הורדה.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new 5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new 8 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new 5 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new 10 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new 12 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new 13 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new 9 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new 11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new 5 %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\new 14 %282%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,210 @@
+﻿<Window x:Class="PLWPF.AddHostingUnitW"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="AddHostingUnitW" Height="729" Width="1600">
+    <Window.Resources>
+        <Style  x:Key="BorderKey" TargetType ="Border">
+            <Setter Property="CornerRadius" Value="15"/>
+        </Style>
+        <Style x:Key= "commonStyle" TargetType="Control">
+            <Setter Property= "BorderBrush" Value="Transparent"/>
+            <Setter Property= "Background" Value="Transparent"/>
+            <Setter Property= "FontFamily" Value="Guttman Yad-Brush"/>
+            <Setter Property= "Foreground" Value="#FF2F17C5"/>
+            <Setter Property= "FontSize" Value="16"/>
+        </Style>
+        <Style  TargetType="TextBox"  
+         BasedOn="{StaticResource commonStyle}">
+            <Setter Property= "FontSize" Value="16"/>
+            <Setter Property= "BorderBrush" Value="#FF2F17C5"/>
+        </Style>
+        <Style  TargetType="Button"        
+         BasedOn="{StaticResource commonStyle}">
+            <Setter Property= "FontWeight" Value="Bold"/>
+            <Setter Property= "BorderBrush" Value="Blue"/>
+            <Setter Property= "FontSize" Value="16"/>
+
+        </Style>
+        <Style  TargetType="CheckBox"  
+         BasedOn="{StaticResource commonStyle}">
+            <Setter Property= "FontSize" Value="16"/>
+            <Setter Property= "Background" Value="White"/>
+        </Style>
+        <Style  TargetType="Label"  
+         BasedOn="{StaticResource commonStyle}">
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="0,0,-8,-31" Height="729" Width="1600">
+        <Grid.Background >
+            <ImageBrush ImageSource="Resources\HP-fallback-image-1.jpg" Stretch="UniformToFill" TileMode="Tile"/>
+        </Grid.Background >
+
+        <Label Content="הוספת יחידת אירוח"  FontSize="20"  FontWeight="Bold" HorizontalAlignment="Left" Margin="424,10,0,0" VerticalAlignment="Top" Width="186" Height="39"/>
+        <Label Content=":שם יחידת האירוח"   HorizontalAlignment="Left" Margin="462,67,0,0" VerticalAlignment="Top" Width="137" RenderTransformOrigin="0.54,0.47"/>
+        <TextBox Name="HuName" HorizontalAlignment="Left" Height="23" Margin="299,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" />
+        <CheckBox Name="poolCB" Content="   בריכה"   HorizontalAlignment="Left" Margin="503,157,0,0" VerticalAlignment="Top" Width="96" Height="18"   />
+        <CheckBox Name="GardenCB" Content="    גינה"  HorizontalAlignment="Left" Margin="503,183,0,0" VerticalAlignment="Top" Width="103" Height="18"  RenderTransformOrigin="0.54,0.881"/>
+        <CheckBox Name="jakouziCB" Content="   ג'קוזי"   HorizontalAlignment="Left" Margin="503,207,0,0" VerticalAlignment="Top" Width="106" Height="18"  />
+        <CheckBox Name="AttractionCB" Content="אטרקציות"   HorizontalAlignment="Left" Margin="503,233,0,0" VerticalAlignment="Top" Width="105" Height="18"  RenderTransformOrigin="0.54,0.526"/>
+        <Button Name="AddHU" Content="הוספה" BorderThickness="5" BorderBrush="#FF28C9BB"  Foreground="#FF2F17C5" HorizontalAlignment="Left" Margin="34,403,0,0" VerticalAlignment="Top" Width="115" Height="44" FontSize="16" FontWeight="Bold" Click="Button_Click_Add" RenderTransformOrigin="-0.016,0.5">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse Stroke="#FF2F17C5" 
+                            StrokeThickness="2">
+                            <Ellipse.Fill>
+                                <RadialGradientBrush>
+                                    <RadialGradientBrush.Transform>
+                                        <TransformGroup>
+                                            <ScaleTransform ScaleY="0.65" />
+                                        </TransformGroup>
+                                    </RadialGradientBrush.Transform>
+                                    <GradientStop Offset="0"
+                                        Color="#FFDDDDDD" />
+                                    <GradientStop Offset="1"
+                                        Color="Transparent" />
+
+                                </RadialGradientBrush>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <ContentPresenter HorizontalAlignment="Center"
+                            VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Name="AreaBtn" Content="     מיקום היחידה "  Background="#FFABCCEE" HorizontalAlignment="Left" Margin="295,142,0,0" Foreground="#FF2F17C5" VerticalAlignment="Top" Width="173" Height="33"  Click="Area_Click" FontWeight="Normal">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Image Source="Resources\place.png" HorizontalAlignment="Left" Height="37" Margin="303,141,0,0" VerticalAlignment="Top" Width="54"/>
+
+        <Grid Name="gr3" Visibility="Collapsed" HorizontalAlignment="Left" Height="54" Margin="318,180,0,0" VerticalAlignment="Top" Width="122">
+            <ComboBox Name="AreaCB"  IsEditable="True" FontSize="16" Foreground="#FF2F17C5" FontWeight="Bold"  Text="בחר יעד"  HorizontalAlignment="Left" Margin="35,0,0,-3" VerticalAlignment="Top" Width="84" SelectionChanged="AreaCB_SelectionChanged" Height="27"/>
+            <ComboBox Name="SubAreaCB" SelectionChanged="SubAreaCB_SelectionChanged"  IsEditable="True" FontSize="16" Foreground="#FF2F17C5" FontWeight="Bold"  Text="בחר תת יעד" Visibility="Collapsed"  Width="111" Height="28" Margin="8,27,3,-1"  />
+        </Grid>
+        <Label Content=" אתר לינה" HorizontalAlignment="Left" Height="33" Margin="328,229,0,0" VerticalAlignment="Top" Width="88"  RenderTransformOrigin="0.45,0.431"/>
+        <ComboBox x:Name="TypeHostingUnitCB"  IsEditable="True" FontSize="14" Foreground="#FF2F17C5" FontWeight="Bold" SelectedItem="{Binding Type}" HorizontalAlignment="Left" Margin="299,255,0,0" VerticalAlignment="Top" Width="120" Height="24"/>
+
+
+        <Label Content=":ארוחות"   HorizontalAlignment="Left" Margin="525,256,0,0" VerticalAlignment="Top" Width="84"/>
+        <CheckBox Name="BreakfastCB" Content="  בוקר" HorizontalAlignment="Left"    Margin="505,287,0,0" VerticalAlignment="Top" Height="24"/>
+        <CheckBox Name="LunchCB" Content="צהריים" HorizontalAlignment="Left"  Margin="505,311,0,0" VerticalAlignment="Top" Height="24"/>
+        <CheckBox Name="DinnerCB" Content="   ערב" HorizontalAlignment="Left"   Margin="505,333,0,0" VerticalAlignment="Top" Height="24" Width="74"/>
+
+        <Button x:Name="RoomBtn" Content="             :מספר חדרים"   Click="Room_Button_Click"  Background="#FF8FBCEC" Margin="297,385,1085,306" FontWeight="Normal" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Image Source="Resources/blue bed.png"  HorizontalAlignment="Left" Height="50" Width="42" Margin="304,379,0,300" RenderTransformOrigin="0.125,0.74"/>
+
+        <Grid Name="gr4" Visibility="Collapsed" MouseLeave="Room_MouseLeave" HorizontalAlignment="Left" Height="100" Margin="271,428,0,0" VerticalAlignment="Top" Width="187">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="122*"/>
+                <ColumnDefinition Width="65*"/>
+            </Grid.ColumnDefinitions>
+            <Label  Content="חדרים" HorizontalAlignment="Left" Margin="1,10,0,0" VerticalAlignment="Top" Height="46" Width="64" FontSize="16" Background="#00000000" Foreground="#FFCAF7F7" FontWeight="Bold" Grid.Column="1"/>
+            <Button x:Name="RoomPlus" Content="+" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="40" Margin="-2,10,0,0" Height="46" FontSize="24" FontWeight="Bold" Click="Plus_Click1" />
+            <TextBox x:Name="txtNumRoom" Text="0" BorderBrush="Transparent" HorizontalAlignment="Left" Height="46" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" Margin="37,10,0,0" TextChanged="TextBox_TextChanged_1" FontSize="24" FontWeight="Bold"/>
+            <Button x:Name="RoomMinus" Content="-" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="40" Margin="72,10,0,0" Height="46" RenderTransformOrigin="1.45,0.337" FontSize="24" FontWeight="Bold" Click="Minus_Click1" />
+        </Grid>
+
+        <TextBox Name="RoomTxt"  Text="0"   BorderBrush="Transparent" HorizontalAlignment="Left" Height="28" Margin="347,389,0,0"  VerticalAlignment="Top" Width="35" TextChanged="RoomTxt_TextChanged"/>
+        <Label Name="NLabel" Content="" FontSize="10" HorizontalAlignment="Left" Height="19" Margin="299,92,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Background="Transparent" BorderBrush="Transparent" Name="GoBack"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="48" Click="BackButton_Click">
+            <Image Source="Resources\blue Arrow.png" Height="47" Width="50"/>
+
+        </Button>
+        <Label  Content="ילדים"  FontFamily="Guttman Yad-Brush"  HorizontalAlignment="Left" Margin="386,340,0,0" VerticalAlignment="Top" Height="34" Width="54"/>
+        <Label Content="מבוגרים"  FontFamily="Guttman Yad-Brush"  HorizontalAlignment="Left" Margin="370,303,0,0" VerticalAlignment="Top" Height="34" Width="87"/>
+        <TextBox x:Name="SumAdults" HorizontalAlignment="Left" Height="27" Margin="304,302,0,0"   TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="53" />
+        <TextBox x:Name="SumChids" HorizontalAlignment="Left" Height="25" Margin="305,343,0,0"   TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52"/>
+        <Label Name="upd" Visibility="Collapsed" FontWeight="Bold" Content="יחידת האירוח התווספה בהצלחה"  FontSize="20" HorizontalAlignment="Left" Margin="80,487,0,0" VerticalAlignment="Top" Width="355"/>
+        <Image Name="vi" Visibility="Collapsed" Source="Resources\vi 1.png" HorizontalAlignment="Left" Height="70" Margin="446,467,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="22.124"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Button x:Name="Butto_UploadImage" BorderBrush="Blue" Background="#FF8DBDF0" Content="העלאת תמונה/ות" Click="Button_Click_UploadImage" Margin="34,151,1360,540">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Content=":טלפון של יחידת האירוח"   HorizontalAlignment="Left" Margin="424,107,0,0" VerticalAlignment="Top" Width="182" RenderTransformOrigin="0.54,0.47"/>
+        <TextBox x:Name="Phone" HorizontalAlignment="Left" Height="23" Margin="299,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"  />
+        <ScrollBar HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <ScrollBar HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <ListBox Name="ListBox1" ItemsSource="{Binding MyPictures}"
+
+                ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="10,207,1348,353" BorderBrush="#FF133EBF">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid MaxWidth="200" Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Image Source="{Binding Url}" />
+                        <TextBlock Text="{Binding Title}"
+
+                                HorizontalAlignment="Center"
+
+                                Grid.Row="1" Margin="0 5"/>
+
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+        </ListBox>
+
+        <StackPanel Orientation="Vertical" Grid.Row="0" Margin="10,92,1322,583" >
+            <local:RatingsControl x:Name="ratings1" 
+                              Value="4.2"
+                              NumberOfStars="5"
+                              Background="Transparent"
+                              Margin="0,5,60,5" Height="43" HorizontalAlignment="Right" Width="198"/>
+
+
+
+        </StackPanel>
+
+
+        <Label Content=":הכנס מספר כוכבים" Margin="116,67,1322,622"/>
+        <TextBox x:Name="txtValue" Margin="26,66,1494,638" RenderTransformOrigin="0.162,0.699" TextChanged="startext" >
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.219"/>
+                    <TranslateTransform X="0.011" Y="-0.029"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+
+    </Grid>
+</Window>

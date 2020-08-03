@@ -1,0 +1,195 @@
+﻿<Window x:Class="PLWPF.LinqHu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="LinqHu" Height="800" Width="1600">
+    <Window.Resources>
+        <local:ConverterHostName x:Key="ConverterHostName"/>
+        <local:ConvertersMealHU x:Key="ConvertersMealHU"/>
+        <local:ConvertersAtractionHU x:Key="ConvertersAtractionHU"/>
+        <local:ConvertersGardenHU x:Key="ConvertersGardenHU"/>
+        <local:ConvertersjakuziHU x:Key="ConvertersjakuziHU"/>
+        <local:ConvertersPoolHU x:Key="ConvertersPoolHU"/>
+        
+        
+        <Style x:Key= "commonStyle" TargetType="Control">
+            <Setter Property= "FontWeight" Value="Bold"/>
+            <Setter Property= "BorderBrush" Value="Transparent"/>
+            <Setter Property= "Background" Value="#FFABCCEE"/>
+            <Setter Property= "FontSize" Value="22"/>
+            <Setter Property= "Foreground" Value="#FF175DF3"/>
+            <Setter Property= "BorderThickness" Value="0"/>
+            
+        </Style>
+        <Style  TargetType="TextBox"  
+         BasedOn="{StaticResource commonStyle}">
+        </Style>
+
+        <Style  TargetType="Button"  
+         BasedOn="{StaticResource commonStyle}">
+        </Style>
+        <Style  TargetType="Label"
+         BasedOn="{StaticResource commonStyle}">
+            <Setter Property= "BorderThickness" Value="0"/>
+            <Setter Property= "FontSize" Value="14"/>
+            <Setter Property= "Background" Value="Transparent"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="-3,0,3,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.Background >
+            <ImageBrush ImageSource="Resources\HP-fallback-image-1.jpg" Stretch="UniformToFill" TileMode="Tile"/>
+        </Grid.Background >
+        <Button Background="Transparent" BorderBrush="Transparent" Name="GoBack"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="48" Click="BackButton_Click">
+            <Image Source="Resources\blue Arrow.png" Height="47" Width="50"/>
+
+        </Button>
+        <Border x:Name="BGR" BorderThickness="5" BorderBrush="#FFABCCEE" CornerRadius="15" Margin="20,103,0,219" HorizontalAlignment="Left" Width="978" RenderTransformOrigin="0.5,0.5">
+
+            <Grid Height="515" VerticalAlignment="Top" Margin="79,-8,-69,-70">
+
+                <ListView x:Name="ListView_HU" Background="Transparent" Margin="19,35,172,110" Foreground="#FF175DF3" FontWeight="Bold"  >
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListViewItem}">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                        <Border Padding="2" BorderThickness="2"  CornerRadius="3" Margin="3">
+                                            <GridViewRowPresenter HorizontalAlignment="Stretch" Width="Auto" Margin="0"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                                <Border Padding="2" BorderThickness="2" BorderBrush="LightBlue" Background="LightGray" CornerRadius="3" Margin="3">
+                                                    <GridViewRowPresenter HorizontalAlignment="Stretch" Width="Auto" Margin="0"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="DarkBlue"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.View>
+                        <GridView>
+
+                            <GridViewColumn Header="ארוחות" Width="60">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Converter={StaticResource ConvertersMealHU}}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="אטרקציות"  Width="60">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Converter={StaticResource ConvertersAtractionHU}}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="ג'קוזי"  Width="60">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Converter={StaticResource ConvertersjakuziHU}}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="גינה" Width="60">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Converter={StaticResource ConvertersGardenHU}}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="בריכה"  Width="60">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Converter={StaticResource ConvertersPoolHU}}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>                            
+                            <GridViewColumn Header="חדרים" DisplayMemberBinding="{Binding Room}" Width="60"/>
+                            <GridViewColumn Header="סוג אירוח" DisplayMemberBinding="{Binding Type}" Width="110"/>
+                            <GridViewColumn Header="תת אזור" DisplayMemberBinding="{Binding  SubArea}" Width="110"/>
+                            <GridViewColumn Header="בעל היחידה" >
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Converter={StaticResource ConverterHostName}}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="שם היחידה" DisplayMemberBinding="{Binding HostingUnitName}" Width="110"/>
+
+
+                        </GridView>
+                    </ListView.View>
+
+                </ListView>
+
+
+            </Grid>
+        </Border>
+        <Grid HorizontalAlignment="Left" Height="246" Margin="1181,94,0,0" VerticalAlignment="Top" Width="198">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="113*"/>
+                <RowDefinition Height="133*"/>
+            </Grid.RowDefinitions>
+            <Button Content="יחידות פנויות"  HorizontalAlignment="Left" Margin="2,10,0,0" VerticalAlignment="Top" Width="173" Height="52" Click="AvailibleUnit_Click">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+
+            </Button>
+            <Button Content="כל היחידות " HorizontalAlignment="Left" Margin="0,82,0,0" VerticalAlignment="Top" Width="173" Height="52" Click="AllUnit_Click" Grid.RowSpan="2">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+
+            </Button>
+            <Button Content="יחידות תפוסות " HorizontalAlignment="Left" Margin="0,43,0,0" VerticalAlignment="Top" Width="173" Height="52" Click="BusyUnit_Click" Grid.Row="1">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+
+            </Button>
+        </Grid>
+        <Label Content="יחידות אירוח" Foreground="#FF175DF3" FontWeight="Bold" HorizontalAlignment="Left" Margin="1185,10,0,0" VerticalAlignment="Top" Width="158" FontSize="24" Height="42"/>
+
+        <Border x:Name="Bhu" Visibility="Collapsed" BorderThickness="5" BorderBrush="#FFABCCEE" CornerRadius="15" Margin="1010,94,0,527" HorizontalAlignment="Left" Width="160" RenderTransformOrigin="0.5,0.5">
+            <Grid Name="availibleGRID"  HorizontalAlignment="Left" Height="146" Margin="5,5,0,0" VerticalAlignment="Top" Width="141">
+                <Label Content="תאריך התחלה" HorizontalAlignment="Left" Margin="17,-9,0,0" VerticalAlignment="Top"/>
+                <Label Content="מספר ימים" HorizontalAlignment="Left" Margin="44,52,0,0" VerticalAlignment="Top"/>
+                <DatePicker Name="EntryDate_DatePicker" HorizontalAlignment="Left" Margin="17,21,0,0" Width="109" Height="26" VerticalAlignment="Top"/>
+                <TextBox Name="SumOFday"  HorizontalAlignment="Left" Height="23" Margin="90,92,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="31" FontWeight="Bold" FontSize="18"/>
+                <Button Content="בדיקה" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="0,90,0,0" Click="AvailibleClickCheck" VerticalAlignment="Top" Width="69" Height="28" FontSize="14"/>
+            </Grid>
+        </Border>
+        <Border x:Name="BUSY" Visibility="Collapsed" BorderThickness="5" BorderBrush="#FFABCCEE" CornerRadius="15" Margin="1011,247,0,374" HorizontalAlignment="Left" Width="160" RenderTransformOrigin="0.5,0.5">
+            <Grid x:Name="busyGRID"  HorizontalAlignment="Left" Height="146" Margin="5,5,0,0" VerticalAlignment="Top" Width="141">
+                <Label Content="תאריך התחלה" HorizontalAlignment="Left" Margin="17,-9,0,0" VerticalAlignment="Top"/>
+                <Label Content="מספר ימים" HorizontalAlignment="Left" Margin="44,52,0,0" VerticalAlignment="Top"/>
+                <DatePicker x:Name="EntryDate_DatePicker1" HorizontalAlignment="Left" Margin="17,21,0,0" Width="109" Height="26" VerticalAlignment="Top"/>
+                <TextBox x:Name="SumOFday1"  HorizontalAlignment="Left" Height="23" Margin="90,92,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="31" FontWeight="Bold" FontSize="18"/>
+                <Button Content="בדיקה" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="0,90,0,0" Click="BusyClickCheck" VerticalAlignment="Top" Width="69" Height="28" FontSize="14"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,42 @@
+﻿<Window x:Class="PLWPF.Question"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="Question" Height="780" Width="1600">
+    <Window.Resources>
+        <Style x:Key= "commonStyle" TargetType="Control">
+            <Setter Property= "BorderBrush" Value="#FFABCCEE"/>
+            <Setter Property= "Background" Value="Transparent"/>
+            <Setter Property= "FontSize" Value="16"/>
+            <Setter Property= "Foreground" Value="#FF2F17C5"/>
+
+        </Style>
+        <Style  TargetType="Button"  
+         BasedOn="{StaticResource commonStyle}">
+        </Style>
+        <Style  TargetType="Label"  
+         BasedOn="{StaticResource commonStyle}">
+            <Setter Property= "Foreground" Value="#FF2F17C5"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="-4,0,4,-21">
+        <Grid.Background >
+            <ImageBrush ImageSource="Resources\HP-fallback-image-1.jpg" Stretch="UniformToFill" TileMode="Tile"/>
+        </Grid.Background>
+        <Button Background="Transparent" BorderBrush="Transparent" Name="GoBack"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="48" Click="BackButton_Click">
+            <Image Source="Resources\blue Arrow.png" Height="47" Width="50"/>
+
+        </Button>
+        <Label Content=" , לקוחות יקרים שימו לב" FontWeight="Black" FontSize="25" HorizontalAlignment="Left" Margin="410,48,0,0" VerticalAlignment="Top" Height="52" Width="304"/>
+        <Label Content="אנו משתדלים לתת לכם מענה לכל שאלותיכם    &#xD;&#xA; "  FontSize="25" HorizontalAlignment="Left" Margin="325,100,0,0" VerticalAlignment="Top" Height="53" Width="493"/>
+        <Label Content="ומנסים לספק לכם כאן את כל המידע הדרוש "  FontSize="25" HorizontalAlignment="Left" Margin="335,155,0,0" VerticalAlignment="Top" Height="53" Width="475"/>
+        <Label Content="אם נתקלתם בשאלה שלא קיבלתם עליה מענה הינכם מוזמנים   "  FontSize="25" HorizontalAlignment="Left" Margin="238,211,0,0" VerticalAlignment="Top" Height="53" Width="687"/>
+        <Button Content="לחצו כאן" HorizontalAlignment="Left" Margin="371,334,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="80" Height="29" Click="Button_Click"/>
+        <Label Content="לשלוח לנו מייל בתיבת &quot; משוב לאתר&quot; ונשתדל לענות לכם "  FontSize="25" HorizontalAlignment="Left" Margin="270,267,0,0" VerticalAlignment="Top" Height="53" Width="623"/>
+        <Label Content=" בהקדם האפשרי למעבר לעמוד"  FontSize="25" HorizontalAlignment="Left" Margin="450,323,0,0" VerticalAlignment="Top" Height="53" Width="352" RenderTransformOrigin="0.51,0.925"/>
+    </Grid>
+
+</Window>

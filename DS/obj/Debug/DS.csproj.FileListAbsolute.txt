@@ -1,0 +1,10 @@
+Z:\שנה ג'\c#\Project\BE\DS\bin\Debug\DS.exe.config
+Z:\שנה ג'\c#\Project\BE\DS\bin\Debug\DS.exe
+Z:\שנה ג'\c#\Project\BE\DS\bin\Debug\DS.pdb
+Z:\שנה ג'\c#\Project\BE\DS\bin\Debug\BE.dll
+Z:\שנה ג'\c#\Project\BE\DS\bin\Debug\BE.pdb
+Z:\שנה ג'\c#\Project\BE\DS\obj\Debug\DS.exe
+Z:\שנה ג'\c#\Project\BE\DS\obj\Debug\DS.pdb
+Z:\שנה ג'\c#\Project\BE\DS\obj\Debug\DS.csprojAssemblyReference.cache
+Z:\שנה ג'\c#\Project\BE\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
+Z:\שנה ג'\c#\Project\BE\DS\obj\Debug\DS.csproj.CopyComplete

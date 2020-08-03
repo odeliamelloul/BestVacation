@@ -1,0 +1,142 @@
+﻿<Window x:Class="PLWPF.PrivateHost"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="PrivateHost" Height="729" Width="1600">
+    <Window.Resources>
+        <Style x:Key= "ButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property= "BorderBrush" Value="Transparent"/>
+            <Setter Property= "Background" Value="#FFABCCEE"/>
+            <Setter Property= "FontSize" Value="22"/>
+            <Setter Property= "Foreground" Value="#FF1E42E0"/>
+            <Setter Property= "FontFamily" Value="Guttman Yad-Brush"/>
+
+        </Style>
+    </Window.Resources>
+    <Grid Height="729" Width="1600">
+
+        <Grid.Background >
+            <ImageBrush ImageSource="Resources\HP-fallback-image-1.jpg" Stretch="UniformToFill" TileMode="Tile"/>
+        </Grid.Background >
+        <Button Background="Transparent" BorderBrush="Transparent" Name="GoBack"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="48" Click="BackButton_Click">
+            <Image Source="Resources\blue Arrow.png" Height="47" Width="50"/>
+
+        </Button>
+        <Label Content=":הכנס את מספר תעודת הזהות שלך " FontSize="20" FontFamily="Guttman Yad-Brush" Foreground="#FF0A68F0" HorizontalAlignment="Left" Margin="194,245,0,426" Width="377"/>
+        <TextBox Name="IdTxt"  Foreground="Black" FontSize="20" HorizontalAlignment="Left" Height="41" Margin="222,303,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="263"  BorderBrush="#FF102D85" TextChanged="IdTxt_TextChanged" >
+
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+
+        <Grid Name="grHost" Visibility="Collapsed" HorizontalAlignment="Left" Height="243" Margin="212,404,0,0" VerticalAlignment="Top" Width="320">
+
+            <Button  x:Name="UpdateBtn" Content=" עדכון יחידת אירוח" Click="Update_Button_Click"  BorderThickness="4" HorizontalAlignment="Left" Margin="10,119,0,69" Width="275" RenderTransformOrigin="10,10" Height="55"  >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+                <Button.Style>
+                    <StaticResource ResourceKey="ButtonStyle"/>
+                </Button.Style>
+            </Button>
+            <Button  x:Name="OrderBtn"  Content="הזמנת לקוחות" BorderThickness="4" Click="Order_Button_Click" Margin="13,6,36,182" RenderTransformOrigin="10,10" Height="55"  >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.083"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+                <Button.Style>
+                    <StaticResource ResourceKey="ButtonStyle"/>
+                </Button.Style>
+            </Button>
+            <Button  x:Name="DeleteBtn"  Content="מחיקת יחידת אירוח" BorderThickness="4" HorizontalAlignment="Left" Margin="10,173,0,15" Width="275" RenderTransformOrigin="10,10" Click="Delete_Button_Click" Height="55"  >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+                <Button.Style>
+                    <StaticResource ResourceKey="ButtonStyle"/>
+                </Button.Style>
+            </Button>
+            <Button  x:Name="DeleteBtn_Copy"  Content="הוספת יחידת אירוח" BorderThickness="4" HorizontalAlignment="Left" Margin="10,64,0,124" Width="275" RenderTransformOrigin="10,10" Click="Button_Click_AddHU" Height="55"  >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+                <Button.Style>
+                    <StaticResource ResourceKey="ButtonStyle"/>
+                </Button.Style>
+            </Button>
+
+        </Grid>
+
+        <Button Content="עדכן את פרטיך"  HorizontalAlignment="Left" Margin="250,351,0,0" VerticalAlignment="Top" Width="213"    Height="48" Click="Button_Click" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+            <Button.Style>
+                <StaticResource ResourceKey="ButtonStyle"/>
+            </Button.Style>
+        </Button>
+        <Grid Name="grOrder" MouseLeave="grOrder_MouseLeave" Visibility="Collapsed" HorizontalAlignment="Left" Height="152" Margin="20,398,0,0" VerticalAlignment="Top" Width="168">
+            <Button  x:Name="OrderBtn_Add" FontSize="18" Content="הוספת הזמנה" BorderThickness="4" Click="OrderBtn_Add_Click" Margin="9,20,15,79" RenderTransformOrigin="10,10"  >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.083"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+                <Button.Style>
+                    <StaticResource ResourceKey="ButtonStyle"/>
+                </Button.Style>
+            </Button>
+            <Button  x:Name="OrderBtn_Upd" FontSize="18" Content="עדכון הזמנה" BorderThickness="4" Click="OrderBtn_Upd_Click" Margin="10,0,14,31" RenderTransformOrigin="10,10" Width="144" Height="53" VerticalAlignment="Bottom"  >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.083"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+                <Button.Style>
+                    <StaticResource ResourceKey="ButtonStyle"/>
+                </Button.Style>
+            </Button>
+        </Grid>
+        <Image Source="Resources\user-man.png" HorizontalAlignment="Left" Height="193" Margin="270,33,0,0" VerticalAlignment="Top" Width="232"/>
+
+    </Grid>
+</Window>

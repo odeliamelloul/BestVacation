@@ -1,0 +1,12 @@
+Z:\שנה ג'\c#\Project\BE\BE\bin\Debug\BE.dll
+Z:\שנה ג'\c#\Project\BE\BE\bin\Debug\BE.pdb
+Z:\שנה ג'\c#\Project\BE\BE\obj\Debug\BE.dll
+Z:\שנה ג'\c#\Project\BE\BE\obj\Debug\BE.pdb
+Z:\שנה ג'\c#\Project\BE\BE\obj\Debug\BE.csprojAssemblyReference.cache
+Z:\שנה ג'\c#\Project\BE\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\BE\bin\Debug\BE.dll
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\BE\bin\Debug\BE.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\BE\obj\Debug\BE.dll
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\BE\obj\Debug\BE.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\BE\obj\Debug\BE.csprojAssemblyReference.cache
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache

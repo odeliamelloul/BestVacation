@@ -1,0 +1,57 @@
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\PL.exe.config
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\PL.exe
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\PL.pdb
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\BE.dll
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\BL.dll
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\BE.pdb
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\BL.pdb
+Z:\שנה ג'\c#\Project\BE\PL\obj\Debug\PL.exe
+Z:\שנה ג'\c#\Project\BE\PL\obj\Debug\PL.pdb
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\DAL.dll
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\DAL.pdb
+Z:\שנה ג'\c#\Project\BE\PL\obj\Debug\PL.csprojAssemblyReference.cache
+Z:\שנה ג'\c#\Project\BE\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
+Z:\שנה ג'\c#\Project\BE\PL\obj\Debug\PL.csproj.CopyComplete
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\DS1.dll
+Z:\שנה ג'\c#\Project\BE\PL\bin\Debug\DS1.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\PL.exe.config
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\PL.exe
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\PL.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\BE.dll
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\BL.dll
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\DAL.dll
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\DS1.dll
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\BE.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\BL.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\DAL.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\bin\Debug\DS1.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.exe
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.pdb
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\PL.exe.config
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\PL.exe
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\PL.pdb
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\BE.dll
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\BL.dll
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\DAL.dll
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\BE.pdb
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\BL.pdb
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\DAL.pdb
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.csprojAssemblyReference.cache
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.csproj.CopyComplete
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.exe
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.pdb
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\PL.exe.config
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\PL.exe
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\PL.pdb
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\BE.dll
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\BL.dll
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\DAL.dll
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\BE.pdb
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\BL.pdb
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\bin\Debug\DAL.pdb
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.csprojAssemblyReference.cache
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.csproj.CopyComplete
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.exe
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PL\obj\Debug\PL.pdb

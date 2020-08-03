@@ -1,0 +1,244 @@
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.exe
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BE.dll
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BL.dll
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DAL.dll
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DS1.dll
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BE.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BL.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DAL.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DS1.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddGR.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHostingUnitW.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\DeleteHostingUnit.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Feedback.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\MainWindow.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\OrderWin.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PrivateHost.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Question.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateGuestRequest.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\App.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddGR.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHostingUnitW.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\DeleteHostingUnit.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Feedback.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\MainWindow.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\OrderWin.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PrivateHost.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Question.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateGuestRequest.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.g.resources
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.exe
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.exe.config
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.pdb
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddOrder.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateOrder.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddOrder.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateOrder.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetHuName.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetHuName.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetStatusOrder.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetStatusOrder.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\SiteOwner.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\SiteOwner.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqGR.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqGR.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHu.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHu.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHost.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHost.baml
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csprojAssemblyReference.cache
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csproj.CoreCompileInputs.cache
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csproj.CopyComplete
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHost.g.cs
+Z:\שנה ג'\c#\Project\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHost.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddGR.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHost.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHostingUnitW.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddOrder.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqGR.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\DeleteHostingUnit.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Feedback.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetHuName.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetStatusOrder.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHost.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHu.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\OrderWin.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PrivateHost.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Question.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\SiteOwner.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateGuestRequest.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateOrder.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\App.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.exe
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.pdb
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.exe.config
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.exe
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.pdb
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BE.dll
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BL.dll
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DAL.dll
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DS1.dll
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BE.pdb
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BL.pdb
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DAL.pdb
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DS1.pdb
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddGR.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHost.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHostingUnitW.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddOrder.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqGR.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\DeleteHostingUnit.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Feedback.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetHuName.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetStatusOrder.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHost.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHu.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\MainWindow.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\OrderWin.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PrivateHost.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Question.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\SiteOwner.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateGuestRequest.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateOrder.baml
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.g.resources
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+C:\Users\rucohen\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.exe
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BE.dll
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BL.dll
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DAL.dll
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BE.pdb
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BL.pdb
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DAL.pdb
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddGR.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHost.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHostingUnitW.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddOrder.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqGR.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\DeleteHostingUnit.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Feedback.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetHuName.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetStatusOrder.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHost.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHu.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\MainWindow.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\OrderWin.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PrivateHost.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Question.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\SiteOwner.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateOrder.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\App.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddGR.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHost.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHostingUnitW.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddOrder.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqGR.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\DeleteHostingUnit.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Feedback.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetHuName.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetStatusOrder.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHost.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHu.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\MainWindow.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\OrderWin.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PrivateHost.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Question.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Resources\Dictionary1.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\SiteOwner.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateOrder.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.g.resources
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.exe
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.pdb
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.exe.config
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.pdb
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\HotelRecommended.g.cs
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\HotelRecommended.baml
+Z:\שנה ג'\c#\סופי\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.exe.config
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.exe
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\PLWPF.pdb
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BE.dll
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BL.dll
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DAL.dll
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BE.pdb
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\BL.pdb
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\bin\Debug\DAL.pdb
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csprojAssemblyReference.cache
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddGR.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHost.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHostingUnitW.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddOrder.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqGR.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\DeleteHostingUnit.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Feedback.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetHuName.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetStatusOrder.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHost.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHu.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PrivateHost.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Question.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\SiteOwner.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateOrder.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\App.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddGR.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHost.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddHostingUnitW.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\AddOrder.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqGR.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\DeleteHostingUnit.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Feedback.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetHuName.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\GetStatusOrder.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHost.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\LinqHu.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\MainWindow.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PrivateHost.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Question.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\Resources\Dictionary1.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\SiteOwner.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\UpdateOrder.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.g.resources
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.cache
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csproj.CoreCompileInputs.cache
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.csproj.CopyComplete
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.exe
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\PLWPF.pdb
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\DeleteGR.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\DeleteGR.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\StarControl.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\RatingsControl.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\StarControl.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\RatingsControl.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\updateGuestRequest.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\updateGuestRequest.baml
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\QuestionAnswer.g.cs
+C:\Users\לינור סלהוב\Downloads\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780 (2)\Project01_5404_8555_dotNet5780\PLWPF\obj\Debug\QuestionAnswer.baml

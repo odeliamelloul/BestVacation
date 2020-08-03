@@ -1,0 +1,93 @@
+﻿<Window x:Class="PLWPF.QuestionAnswer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="QuestionAnswer" Height="800" Width="1600">
+    <Window.Resources>
+        <Style x:Key= "commonStyle" TargetType="Control">
+            <Setter Property= "BorderBrush" Value="#FFABCCEE"/>
+            <Setter Property= "Background" Value="Transparent"/>
+            <Setter Property= "FontSize" Value="16"/>
+            <Setter Property= "Foreground" Value="#FF2F17C5"/>
+
+        </Style>
+        <Style  TargetType="Button"  
+         BasedOn="{StaticResource commonStyle}">
+        </Style>
+        <Style  TargetType="Label"  
+         BasedOn="{StaticResource commonStyle}">
+            <Setter Property= "Foreground" Value="#FF2F17C5"/>
+            <Setter Property= "Height" Value="30"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="0,0,0,-2">
+        <Grid.Background >
+            <ImageBrush ImageSource="Resources\HP-fallback-image-1.jpg" Stretch="UniformToFill" TileMode="Tile"/>
+        </Grid.Background >
+        <Label Content="לקוחות נכבדים סיפקנו לכם מאגר של שאלות ותשובות " FontSize="25" FontWeight="Bold" HorizontalAlignment="Left" Margin="254,8,0,0" VerticalAlignment="Top" Width="616" Foreground="#FF99248E" Height="45"/>
+        <Label Content="מקווים שתמצאו מענה לשאלותיכם" FontWeight="Bold" FontSize="25" HorizontalAlignment="Left" Margin="370,50,0,0" VerticalAlignment="Top" Width="406" Foreground="#FF99248E" Height="43"/>
+        <Grid HorizontalAlignment="Left" Height="209" Margin="623,151,0,0" VerticalAlignment="Top" Width="294">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label FontWeight="Bold" Content="?מה קורה לאחר שהתווספנו במערכת" HorizontalAlignment="Left" VerticalAlignment="Top" Width="284" Margin="11,-35,-1,0"/>
+            <Label Content="אם אכן קיימת יחידת אירוח שמתאימה" HorizontalAlignment="Left" VerticalAlignment="Top" Width="265" Margin="27,0,0,0"/>
+            <Label Content="  לדרישותיכם תקבלו על כך מייל עם" HorizontalAlignment="Left" VerticalAlignment="Top" Width="253" Margin="39,31,0,0"/>
+            <Label Content="הפרטים  של היחידה שמתאימה לכם" HorizontalAlignment="Left" VerticalAlignment="Top" Width="257" Margin="35,62,0,0"/>
+            <Label Content="ותוכלו אח&quot;כ להתקשר למס' טלפון שצורף" HorizontalAlignment="Left" VerticalAlignment="Top" Width="284" Margin="10,93,0,0"/>
+            <Label Content=" !ובכך לסגור את ההזמנה שלכם" VerticalAlignment="Top" Margin="69,127,2,0"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="192" Margin="891,149,0,0" VerticalAlignment="Top" Width="264">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="?איך מזמינים חופשה" FontWeight="Bold" HorizontalAlignment="Left" Margin="100,-33,0,0" VerticalAlignment="Top" Width="157"/>
+            <Label Content=" הזמנת חופשה-&gt;לקוח חדש"  HorizontalAlignment="Left" Margin="59,31,0,0" VerticalAlignment="Top" Width="202"/>
+            <Label Content=" מלאו את כל פרטיכם&#xD;&#xA;"  HorizontalAlignment="Left" Margin="101,61,0,0" VerticalAlignment="Top" Width="160"/>
+            <Label Content=" ולחצו על הוספה"  HorizontalAlignment="Left" Margin="132,94,0,0" VerticalAlignment="Top" Width="129" />
+            <Label Content=":היכנסו ל"  HorizontalAlignment="Left" Margin="184,0,0,0" VerticalAlignment="Top" Width="74" />
+            <Label Content="  כך פרטיכם יתווספו במערכת"  HorizontalAlignment="Left" Margin="43,127,0,35" Width="220" Height="Auto" />
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="209" Margin="10,156,0,0" VerticalAlignment="Top" Width="287">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="עדכון פרטי הזמנה לאחר סגירת עסקה" FontWeight="Bold" Margin="4,-37,2,0" VerticalAlignment="Top" Height="37"/>
+            <Label Content="אין באפשרותכם לעדכן את פרטיכם" HorizontalAlignment="Left" Margin="35,1,0,0" VerticalAlignment="Top" Width="252"/>
+            <Label Content="דרך האתר עליכם ליצור קשר עם " HorizontalAlignment="Left" Margin="51,31,0,0" VerticalAlignment="Top" Width="232"/>
+            <Label Content="היחידה שאיתה סגרתם עסקה בטלפון" HorizontalAlignment="Left" Margin="20,65,0,0" VerticalAlignment="Top" Width="267"/>
+            <Label Content="    שצורף לכם במייל שקיבלתם ואיתו" HorizontalAlignment="Left" Margin="24,97,0,0" VerticalAlignment="Top" Width="259" />
+            <Label Content="סגרתם את העסקה" HorizontalAlignment="Left" Margin="140,126,0,0" VerticalAlignment="Top" Width="147"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="209" Margin="297,151,0,0" VerticalAlignment="Top" Width="321">
+
+
+            <Label Content="?איך מעדכנים פרטי הזמנה" FontWeight="Bold" Margin="113,-33,3,0" VerticalAlignment="Top"/>
+            <Label Content=" הזמנת חופשה-&gt;עדכון הזמנה"  HorizontalAlignment="Left" Margin="104,34,-1,0" VerticalAlignment="Top" Width="218" Grid.ColumnSpan="3"/>
+            <Label Content="והכניסו מספר ת.ז שאיתו נרשמתם ואת"  HorizontalAlignment="Left" Margin="43,65,0,0" VerticalAlignment="Top" Width="275" Height="34"/>
+            <Label Content=" הסיסמה שקיבלתם כשהתווספתם למערכת"  HorizontalAlignment="Left" Margin="9,99,0,0" VerticalAlignment="Top" Width="309" Height="34"/>
+            <Label Content=":היכנסו ל"  HorizontalAlignment="Left" Margin="239,0,0,0" VerticalAlignment="Top" Width="81" Height="34"/>
+            <Label Content="  כך פרטיכם יעודכנו במערכת"  HorizontalAlignment="Left" Margin="107,171,-1,0" VerticalAlignment="Top" Width="215" Height="35"/>
+            <Label Content="עדכנו את פרטיכם ולחצו על עדכון"  HorizontalAlignment="Left" Margin="81,133,0,0" VerticalAlignment="Top" Width="240" Height="35"/>
+        </Grid>
+        <Label Content=" , לקוחות יקרים שימו לב" FontWeight="Black" FontSize="25" HorizontalAlignment="Left" Margin="420,360,0,0" VerticalAlignment="Top" Height="52" Width="123" Foreground="#FF99248E"/>
+        <Label Content="אנו משתדלים לתת לכם מענה לכל שאלותיכם    &#xA; "   HorizontalAlignment="Left" Margin="224,411,0,0" VerticalAlignment="Top" Height="30" Width="320" Background="#FFCCCEEA"/>
+
+
+        <Label Content="ומנסים לספק לכם כאן את כל המידע הדרוש "  HorizontalAlignment="Left" Margin="238,441,0,0" VerticalAlignment="Top" Height="30" Width="306" RenderTransformOrigin="0.5,0.5" Background="#FFCCCEEA"/>
+
+
+        <Label Content="אם נתקלתם בשאלה שלא קיבלתם עליה מענה הינכם מוזמנים   "  HorizontalAlignment="Left" Margin="115,470,0,0" VerticalAlignment="Top" Height="30" Width="429" Background="#FFCCCEEA"/>
+        <Label Content="לשלוח לנו מייל בתיבת &quot; הערות לאתר&quot; ונשתדל לענות לכם "   HorizontalAlignment="Left" Margin="139,498,0,0" VerticalAlignment="Top" Height="30" Width="405" Background="#FFCCCEEA"/>
+        <Label Content=" בהקדם האפשרי למעבר לעמוד"   HorizontalAlignment="Left" Margin="321,526,0,0" VerticalAlignment="Top" Height="30" Width="222" RenderTransformOrigin="0.51,0.925" Background="#FFCCCEEA"/>
+        <Button Content="לחצו כאן" HorizontalAlignment="Left" Margin="244,526,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="80" Height="32" Click="Button_Click" Background="#FFCCCEEA"/>
+        <Button Background="Transparent" BorderBrush="Transparent" Name="GoBack"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="48" Click="BackButton_Click">
+            <Image Source="Resources\blue Arrow.png" Height="47" Width="50"/>
+
+        </Button>
+
+    </Grid>
+</Window>
